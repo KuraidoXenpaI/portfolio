@@ -515,4 +515,44 @@ footer {
   main {
     /* display: none; */
   }
+
+  .about-me-container {
+    padding: 2rem 2rem;
+  }
+
+  .about-me-container > img {
+    width: 5rem;
+  }
+
+  .about-me-container > p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-indent: 0;
+  }
+
+  .mobile-container {
+    margin: 1rem 0;
+  }
+
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-content > div > p {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-indent: 0;
+  }
+
+  .skills-content > div > img {
+    width: 5rem;
+    height: auto;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
