@@ -441,10 +441,15 @@ footer {
     justify-content: center;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 449px) {
     header {
         background-image: none;
         width: 100%;
+        height: auto;
+    }
+
+    body {
+        background-color: #20B316;
     }
 
     .nav-wrapper {
@@ -467,7 +472,6 @@ footer {
 
     .nav-mobile {
         display: flex;
-        width: 100%;
         background-color: #FFE1E1;
         padding: 15px;
 
@@ -490,8 +494,6 @@ footer {
 
         justify-content: center;
         align-items: center;
-
-        /* background-color: #EE6868; */
     }
 
     .intro-texts {
@@ -510,11 +512,21 @@ footer {
         font-size: 30px;
     }
 
-    header {
-        width: 100vw;
+    .about-me-container {
+        padding: 0px;
+        margin: 0px;
     }
 
-    main {
-        display: none;
+    .about-me-container h1{
+        font-size: 25px;
+    }
+
+    .about-me-container img {
+        width: 100px;
+        height: auto;
+    }
+
+    .about-me-container p {
+
     }
 }
